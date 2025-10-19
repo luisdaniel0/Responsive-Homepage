@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Homepage</title>
   </head>
@@ -26,19 +32,28 @@
           </p>
           <ul class="socialLinks">
             <li class="link">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-              />
+              <a href="">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                  alt="github"
+                />
+              </a>
             </li>
             <li class="link">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
-              />
+              <a href="">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
+                  alt="twitter"
+                />
+              </a>
             </li>
             <li class="link">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
-              />
+              <a href="">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
+                  alt="linkedin"
+                />
+              </a>
             </li>
           </ul>
         </div>
@@ -52,7 +67,23 @@
               alt="sakamoto-img"
               class="projectImg"
             />
-            <h3 class="projectName">Project name</h3>
+            <div class="projectHeader">
+              <h3 class="projectName">Project name</h3>
+              <ul class="projectLinks">
+                <li class="link">
+                  <a href=""
+                    ><img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                      alt="github"
+                  /></a>
+                </li>
+                <li class="link">
+                  <a href="">
+                    <img src="./assets/open-in-new.svg" alt="outer-link" />
+                  </a>
+                </li>
+              </ul>
+            </div>
             <p class="projectDescription">
               Short Description of the project. Just a couple sentences will do.
             </p>
@@ -63,39 +94,69 @@
               alt="sakamoto-wife-img"
               class="projectImg"
             />
-            <h3 class="projectName">Project name</h3>
-            <p class="projectDescription">
-              Short Description of the project. Just a couple sentences will do.
-            </p>
-          </li>
-          <li class="card">
-            <img src="./assets/akao.png" alt="akao-img" class="projectImg" />
-            <h3 class="projectName">Project name</h3>
+            <div class="projectHeader">
+              <h3 class="projectName">Project name</h3>
+              <ul class="projectLinks">
+                <li class="link">
+                  <a href=""
+                    ><img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                      alt="github"
+                  /></a>
+                </li>
+                <li class="link">
+                  <a href="">
+                    <img src="./assets/open-in-new.svg" alt="outer-link" />
+                  </a>
+                </li>
+              </ul>
+            </div>
             <p class="projectDescription">
               Short Description of the project. Just a couple sentences will do.
             </p>
           </li>
           <li class="card">
             <img src="./assets/shin.jpg" alt="shin-img" class="projectImg" />
-            <h3 class="projectName">Project name</h3>
-            <p class="projectDescription">
-              Short Description of the project. Just a couple sentences will do.
-            </p>
-          </li>
-          <li class="card">
-            <img
-              src="./assets/nagumo.jpg"
-              alt="nagumo-img"
-              class="projectImg"
-            />
-            <h3 class="projectName">Project name</h3>
+            <div class="projectHeader">
+              <h3 class="projectName">Project name</h3>
+              <ul class="projectLinks">
+                <li class="link">
+                  <a href=""
+                    ><img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                      alt="github"
+                  /></a>
+                </li>
+                <li class="link">
+                  <a href="">
+                    <img src="./assets/open-in-new.svg" alt="outer-link" />
+                  </a>
+                </li>
+              </ul>
+            </div>
             <p class="projectDescription">
               Short Description of the project. Just a couple sentences will do.
             </p>
           </li>
           <li class="card">
             <img src="./assets/gaku.jpg" alt="gaku-img" class="projectImg" />
-            <h3 class="projectName">Project name</h3>
+            <div class="projectHeader">
+              <h3 class="projectName">Project name</h3>
+              <ul class="projectLinks">
+                <li class="link">
+                  <a href=""
+                    ><img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                      alt="github"
+                  /></a>
+                </li>
+                <li class="link">
+                  <a href="">
+                    <img src="./assets/open-in-new.svg" alt="outer-link" />
+                  </a>
+                </li>
+              </ul>
+            </div>
             <p class="projectDescription">
               Short Description of the project. Just a couple sentences will do.
             </p>
@@ -117,22 +178,39 @@
               <img src="./assets/phone.svg" alt="phone" class="contactIcon" />
               <p>666-124-1202</p>
             </li>
+            <li class="contactInfo">
+              <img
+                src="./assets/email-outline.svg"
+                alt="email"
+                class="contactIcon"
+              />
+              <p>luisanchezdh@gmail.com</p>
+            </li>
           </ul>
           <ul class="contactSocialLinks">
             <li class="link">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-              />
+              <a href="">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                  alt="github"
+                />
+              </a>
             </li>
             <li class="link">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
-              />
+              <a href="">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
+                  alt="twitter"
+                />
+              </a>
             </li>
             <li class="link">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
-              />
+              <a href="">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
+                  alt="linkedin"
+                />
+              </a>
             </li>
           </ul>
         </div>

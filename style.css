@@ -1,0 +1,84 @@
+:root {
+  --primary: #088899;
+  --secondary: #ffffff;
+  background: var(--primary);
+}
+
+/* resets */
+body,
+p,
+a,
+ul,
+li,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* fonts */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+.aboutMe {
+  background: var(--secondary);
+}
+.contactMeContainer,
+h1 {
+  color: white;
+}
+
+.projectDescription,
+.aboutMeText {
+  color: rgb(88, 87, 87);
+}
+
+/* base styles */
+body {
+  overflow-x: hidden;
+}
+
+.myWorkContainer {
+  background: var(--secondary);
+}
+
+/* media queries  */
+/* small tablet sizes */
+@media screen and (min-width: 620px) {
+}
+
+/* large tablets and laptops */
+@media screen and (min-width: 960px) {
+}
+
+/* large screens/monitors */
+@media screen and (min-width: 1200px) {
+}

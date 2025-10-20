@@ -66,6 +66,7 @@ body {
   overflow-x: hidden;
 }
 
+/*mobile style*/
 .aboutMeName,
 .contactMeContainer {
   background: var(--primary);
@@ -95,6 +96,9 @@ body {
   padding: 1rem;
 }
 
+.aboutMeHeader {
+  padding-bottom: 15px;
+}
 a img,
 .contactInfo img {
   max-width: 2em;
@@ -160,6 +164,37 @@ a img,
 /* media queries  */
 /* small tablet sizes */
 @media screen and (min-width: 620px) {
+  .aboutMeName h1 {
+    top: 68%;
+    left: 35%;
+  }
+  .aboutMe {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(167, 16, 16, 0.1);
+    margin: 1em;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px;
+  }
+
+  .contactMeContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contactMeDetails {
+    display: grid;
+    justify-content: space-evenly;
+    padding: 15px;
+  }
+  .contactMeInfoContainer img {
+    display: inline-block;
+  }
+  .contactInfo {
+    padding: 10px;
+  }
 }
 
 /* large tablets and laptops */

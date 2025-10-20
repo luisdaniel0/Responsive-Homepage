@@ -90,6 +90,73 @@ body {
   font-size: 3em;
 }
 
+.aboutMe {
+  text-align: center;
+  padding: 1rem;
+}
+
+a img,
+.contactInfo img {
+  max-width: 2em;
+  height: auto;
+}
+
+.socialLinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 1.1em;
+}
+
+.myWorkContainer {
+  text-align: center;
+}
+
+.card {
+  margin: 1em;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.projectImg,
+.contactMeImgContainer {
+  max-width: 100%;
+}
+
+.projectHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.5em;
+}
+
+.projectLinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 40px;
+}
+
+.projectDescription {
+  padding: 1.5em;
+}
+
+.contactMeContainer {
+  text-align: center;
+}
+.contactMeText,
+.contactMeAddress,
+.contactMeInfoContainer {
+  padding: 10px 0px 15px;
+}
+
+.contactMeInfoContainer img {
+  display: none;
+}
+
+.contactSocialLinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1.5em;
+}
+
 /* media queries  */
 /* small tablet sizes */
 @media screen and (min-width: 620px) {

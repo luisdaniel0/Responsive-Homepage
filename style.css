@@ -1,7 +1,6 @@
 :root {
   --primary: #088899;
   --secondary: #ffffff;
-  background: var(--primary);
 }
 
 /* resets */
@@ -48,9 +47,10 @@ p {
   font-size: 1.1em;
 }
 
-.aboutMe {
-  background: var(--secondary);
+img {
+  max-width: 300px;
 }
+
 .contactMeContainer,
 h1 {
   color: white;
@@ -66,8 +66,28 @@ body {
   overflow-x: hidden;
 }
 
-.myWorkContainer {
-  background: var(--secondary);
+.aboutMeName,
+.contactMeContainer {
+  background: var(--primary);
+  padding: 1.5em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.aboutMeName {
+  text-align: center;
+  position: relative;
+}
+
+.aboutMeName h1 {
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  font-size: 3em;
 }
 
 /* media queries  */

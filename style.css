@@ -197,10 +197,33 @@ a img,
   }
 }
 
-/* large tablets and laptops */
-@media screen and (min-width: 960px) {
-}
-
 /* large screens/monitors */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2.4em;
+  }
+
+  .aboutMeName img {
+    width: 100%;
+    max-width: 700px !important;
+  }
+
+  .aboutMe {
+    display: grid;
+    justify-content: space-evenly;
+  }
+  .myWorkContainer {
+    font-size: 2.4em;
+    padding: 15px;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .contactMeContainer {
+    font-size: 2.4em;
+  }
 }
